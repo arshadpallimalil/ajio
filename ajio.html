@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+    href="ecommerse.css">
+    
+</head>
+<body>
+<div id="div1" >
+    <nav>
+       
+            <img class="img1" src="https://assets.ajio.com/static/img/Ajio-Logo.svg">
+            <a class="nav2" href="">MEN</a>
+            <a class="nav1" href="">WOMEN</a>
+            <a class="nav1" href="">KIDS</a>
+            <a class="nav1" href="">BEUTY</a>
+            <a class="nav1" href="">HOME AND KITCHEN</a>
+            <a class="nav1" href="">MEN</a>
+            <input type="search" class="search" placeholder="Search AJIO" >
+            <img class="img2" src="https://assets.ajio.com/static/img/wishlistIcon.svg">
+            <img class="img3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6eY95ZLHJWyse-felsFXJFtcPgQ7E36LqLQ&usqp=CAU">
+            
+            
+    </nav>
+</div>
+
+<div class="slideshow-container">
+    <img class="slideshow-image" src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-12012024-mainbanner-z1-p1-5090.png" alt="Image 1">
+    <img class="slideshow-image" src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-15012024-MainBannerDailyChanging-Z1-P3-Johnplayers-Leecooper.jpg" alt="Image 2">
+    <img class="slideshow-image" src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-05012024-CLEARANCESALE-Z1-min75.jpg" alt="Image 3">
+    <img class="slideshow-image" src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-15012024-MainBannerDailyChanging-Z1-P3-Johnplayers-Leecooper.jpg" alt="Image 4">
+    <img class="slideshow-image" src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-12012024-MainBannerDailyChanging-Z1-P1-crocs-puma-adidas-nike-adidasoriginals-upto30.gif" alt="Image 5">
+  
+  </div>
+<img class="mimg1" src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-12012024-trustmarker.jpg">
+
+<!-- <div > -->
+  
+  <!-- <img class="slideshow-image" src="https://assets.ajio.com/cms/AJIO/WEB/1440x128-flash.co.jpg">
+  <img class="slideshow-image" src="https://assets.ajio.com/cms/AJIO/WEB/Paytmheart-1440x128%202-9.jpg">
+  <img class="slideshow-image" src="https://assets.ajio.com/cms/AJIO/WEB/1440X128%20Prime%20(1)111.png">
+  <img class="slideshow-image" src="https://assets.ajio.com/cms/AJIO/WEB/1440X128%20(1)111.png"> -->
+
+<!-- </div> -->
+<div><img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-05012024-NewYearsFines-Header.jpg"></div>
+<div class="flex">
+  <div id="clickableDiv"><img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-05012024-NewYearsFines-1-Puma-Adidas-Min40.jpg"></div>
+  <div id="clickableDiv1"><img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-05012024-NewYearsFines-2-AX-Superdry-Min40.jpg"></div>
+  <div id="clickableDiv2"><img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-05012024-NewYearsFines-3-DNMX-Netplay-Min60.jpg"></div>
+  <div id="clickableDiv3"><img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-05012024-NewYearsFines-4-Crocs-Gap-Min40.jpg"></div>
+</div>
+<img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-05012024-Freedelivery-1.jpg">
+<img src="https://assets.ajio.com/cms/AJIO/WEB/D-1.0-UHP-12012024-dailystylerefresh-header.jpg">
+  <script>
+  
+    // JavaScript code for the slideshow
+    let slideIndex = 0;
+    const slides = document.getElementsByClassName("slideshow-image");
+  
+    function showSlides() {
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) {
+        slideIndex = 1;
+      }
+      slides[slideIndex - 1].style.display = "block";
+      setTimeout(showSlides, 2000); // Change image every 2 seconds (2000ms)
+    }
+  
+    // Start the slideshow when the page loads
+    window.onload = function () {
+      showSlides();
+    };
+
+    var clickableDiv = document.getElementById('clickableDiv');
+    clickableDiv.addEventListener('click', function() {
+      window.location.href = 'https://www.ajio.com/s/min-40-percent-off-5293-56381';
+    });
+    var clickableDiv1 = document.getElementById('clickableDiv1');
+    clickableDiv1.addEventListener('click', function() {
+      window.location.href = 'https://www.ajio.com/s/min-40-percent-off-5293-56382';
+    });
+    var clickableDiv2 = document.getElementById('clickableDiv2');
+    clickableDiv2.addEventListener('click', function() {
+      window.location.href = 'https://www.ajio.com/s/min-40-percent-off-5293-56381';
+    });
+    var clickableDiv3 = document.getElementById('clickableDiv3');
+    clickableDiv3.addEventListener('click', function() {
+      window.location.href = 'https://www.ajio.com/s/min-40-percent-off-5293-56382';
+    });
+</script>
+</body>
+</html>
